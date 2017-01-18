@@ -4,7 +4,15 @@ import ReactDOM from "react-dom"
 
 import "../css/index.less"
 
+import AddList from "../components/AddList.js" 
+
+import '../../node_modules/antd/dist/antd.css';
+
+import App from "../components/demo.js"
+
 ReactDOM.render(
-	<div>嘻想<em id='em'>啦啦</em></div>,
+	<App/>,
 	document.querySelector("#div")
 )	
+
+

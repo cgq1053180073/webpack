@@ -45,6 +45,8 @@ module.exports = {
    },
    plugins: [
         //自动打来浏览器插件
-        new OpenBrowserPlugin({url: 'http://localhost:8080/', browser: 'chrome'})
+        new OpenBrowserPlugin({url: 'http://localhost:8080/', browser: 'chrome'}) ,
+        "transform-object-assign"
     ]
 }
+
